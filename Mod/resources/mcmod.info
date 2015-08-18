@@ -1,0 +1,25 @@
+[
+	{
+		"modid":		"B0bGrowsOre",
+		"name":			"B0bGary's Growable Ores",
+		"description":	"Adds growable versions of ores from Minecraft! Includes mod support!",
+		"version":		"2.1.0",
+		"mcversion":	"1.7.10",
+		"url": 			"http://www.minecraftforum.net/members/B0bGary",
+		"updateUrl": 	"",
+		"authorList": 	
+			[
+						"B0bGary"
+			],
+		"credits": 		"All the authors of mods that this mod supports!",
+		"logoFile": 	"",
+		"screenshots":
+			[
+			
+			],
+		"dependencies": 
+			[
+			
+			]
+	}
+]
