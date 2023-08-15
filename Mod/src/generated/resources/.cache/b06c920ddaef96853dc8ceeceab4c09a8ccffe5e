@@ -1,7 +1,0 @@
-// 1.20.1	2023-08-12T18:03:01.947535	Tags for minecraft:block mod id growores
-781aead768dc71919e9e08ca8cd9ed7371decb69 data/growores/tags/blocks/growing_blocks.json
-88091fb56baaa52d878bf0345767278eb4abf4d8 data/minecraft/tags/blocks/mineable/pickaxe.json
-50612c4b8e45812cdab85a319ab4e02d44024b66 data/minecraft/tags/blocks/mineable/shovel.json
-4dbfc8a954491e7c6aad8435aa68dce17201f068 data/minecraft/tags/blocks/needs_diamond_tool.json
-903ccdf3107759a8ee933c3a1b286ce9edb67c57 data/minecraft/tags/blocks/needs_iron_tool.json
-2a85ff98e2e9312a1b209e5ae4db46489fb9996d data/minecraft/tags/blocks/needs_stone_tool.json

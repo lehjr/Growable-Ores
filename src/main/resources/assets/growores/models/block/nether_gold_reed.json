@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/tinted_cross",
+  "textures": {
+    "cross": "growores:block/nether_gold_reed"
+  },
+  "render_type": "cutout"
+}
