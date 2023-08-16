@@ -78,6 +78,32 @@ public class ModBlocks {
     public static final RegistryObject<Block> ANCIENT_DEBRIS_REED = BLOCKS.register("ancient_debris_reed",
             ()-> new OreReedBlock(BlockBehaviour.Properties.copy(Blocks.ANCIENT_DEBRIS), 3));
 
+    //MODS
+    //Applied Energistics 2
+    public static final RegistryObject<Block> CERTUS_QUARTZ_REED = BLOCKS.register("certus_quartz_reed",
+            ()-> new OreReedBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK), 4));
+
+    //Mystical Agriculture & Mystical Agradditions
+    public static final RegistryObject<Block> SOULIUM_REED = BLOCKS.register("soulium_reed",
+            ()-> new OreReedBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_QUARTZ_ORE), 4));
+    public static final RegistryObject<Block> PROSPERITY_REED = BLOCKS.register("prosperity_reed",
+            ()-> new OreReedBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE), 4));
+    public static final RegistryObject<Block> DEEPSLATE_PROSPERITY_REED = BLOCKS.register("deepslate_prosperity_reed",
+            ()-> new OreReedBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE), 3));
+    public static final RegistryObject<Block> NETHER_PROSPERITY_REED = BLOCKS.register("nether_prosperity_reed",
+            ()-> new OreReedBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_QUARTZ_ORE), 4));
+    public static final RegistryObject<Block> END_PROSPERITY_REED = BLOCKS.register("end_prosperity_reed",
+            ()-> new OreReedBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE), 4));
+    public static final RegistryObject<Block> INFERIUM_REED = BLOCKS.register("inferium_reed",
+            ()-> new OreReedBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE), 4));
+    public static final RegistryObject<Block> DEEPSLATE_INFERIUM_REED = BLOCKS.register("deepslate_inferium_reed",
+            ()-> new OreReedBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE), 3));
+    public static final RegistryObject<Block> NETHER_INFERIUM_REED = BLOCKS.register("nether_inferium_reed",
+            ()-> new OreReedBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_QUARTZ_ORE), 4));
+    public static final RegistryObject<Block> END_INFERIUM_REED = BLOCKS.register("end_inferium_reed",
+            ()-> new OreReedBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE), 4));
+
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

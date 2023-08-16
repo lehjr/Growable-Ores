@@ -16,8 +16,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
 
-        /*
-        //Add the following to the above *once* after adding new blocks, then replace generated block models and move block states
+
+        blockWithItem(ModBlocks.GROWING_BLOCK);
+
+        //Add the following to the above *once* after adding new blocks, then move and replace generated block models
         blockWithItem(ModBlocks.COAL_REED);
         blockWithItem(ModBlocks.IRON_REED);
         blockWithItem(ModBlocks.COPPER_REED);
@@ -43,9 +45,21 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.ENDER_REED);
         blockWithItem(ModBlocks.AMETHYST_REED);
         blockWithItem(ModBlocks.ANCIENT_DEBRIS_REED);
-        */
 
-        blockWithItem(ModBlocks.GROWING_BLOCK);
+        //MODS
+        //Applied Energistics 2
+        blockWithItem(ModBlocks.CERTUS_QUARTZ_REED);
+
+        //Mystical Agriculture & Mystical Agradditions
+        blockWithItem(ModBlocks.SOULIUM_REED);
+        blockWithItem(ModBlocks.PROSPERITY_REED);
+        blockWithItem(ModBlocks.DEEPSLATE_PROSPERITY_REED);
+        blockWithItem(ModBlocks.NETHER_PROSPERITY_REED);
+        blockWithItem(ModBlocks.END_PROSPERITY_REED);
+        blockWithItem(ModBlocks.INFERIUM_REED);
+        blockWithItem(ModBlocks.DEEPSLATE_INFERIUM_REED);
+        blockWithItem(ModBlocks.NETHER_INFERIUM_REED);
+        blockWithItem(ModBlocks.END_INFERIUM_REED);
     }
 
 

@@ -65,6 +65,32 @@ public class ModItems {
     public static final RegistryObject<Item> ANCIENT_DEBRIS_REED_ITEM = ITEMS.register("ancient_debris_reed_item",
             () -> new ItemNameBlockItem(ModBlocks.ANCIENT_DEBRIS_REED.get(), new Item.Properties().fireResistant()));
 
+    //MODS
+    //Applied Energistics 2
+    public static final RegistryObject<Item> CERTUS_QUARTZ_REED_ITEM = ITEMS.register("certus_quartz_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.CERTUS_QUARTZ_REED.get(), new Item.Properties()));
+
+    //Mystical Agriculture & Mystical Agradditions
+    public static final RegistryObject<Item> SOULIUM_REED_ITEM = ITEMS.register("soulium_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.SOULIUM_REED.get(), new Item.Properties()));
+    public static final RegistryObject<Item> PROSPERITY_REED_ITEM = ITEMS.register("prosperity_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.PROSPERITY_REED.get(), new Item.Properties()));
+    public static final RegistryObject<Item> DEEPSLATE_PROSPERITY_REED_ITEM = ITEMS.register("deepslate_prosperity_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.DEEPSLATE_PROSPERITY_REED.get(), new Item.Properties()));
+    public static final RegistryObject<Item> NETHER_PROSPERITY_REED_ITEM = ITEMS.register("nether_prosperity_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.NETHER_PROSPERITY_REED.get(), new Item.Properties()));
+    public static final RegistryObject<Item> END_PROSPERITY_REED_ITEM = ITEMS.register("end_prosperity_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.END_PROSPERITY_REED.get(), new Item.Properties()));
+    public static final RegistryObject<Item> INFERIUM_REED_ITEM = ITEMS.register("inferium_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.INFERIUM_REED.get(), new Item.Properties()));
+    public static final RegistryObject<Item> DEEPSLATE_INFERIUM_REED_ITEM = ITEMS.register("deepslate_inferium_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.DEEPSLATE_INFERIUM_REED.get(), new Item.Properties()));
+    public static final RegistryObject<Item> NETHER_INFERIUM_REED_ITEM = ITEMS.register("nether_inferium_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.NETHER_INFERIUM_REED.get(), new Item.Properties()));
+    public static final RegistryObject<Item> END_INFERIUM_REED_ITEM = ITEMS.register("end_inferium_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.END_INFERIUM_REED.get(), new Item.Properties()));
+
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

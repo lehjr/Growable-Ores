@@ -10,15 +10,13 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
-import java.net.http.HttpResponse;
-
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, GrowOres.MOD_ID);
-    public static final RegistryObject<CreativeModeTab> EDUCRAFT_TAB= CREATIVE_MODE_TABS.register("growores_tab", () -> CreativeModeTab.builder()
+    public static final RegistryObject<CreativeModeTab> GROWORES_TAB = CREATIVE_MODE_TABS.register("growores_tab", () -> CreativeModeTab.builder()
                     .icon(()-> new ItemStack(ModBlocks.GROWING_BLOCK.get()))
                     .title(Component.translatable("creativetab.growores_tab"))
-            .displayItems((pParameters, pOutput) -> {
+                    .displayItems((pParameters, pOutput) -> {
                 pOutput.accept(ModBlocks.GROWING_BLOCK.get());
 
                 pOutput.accept(ModItems.COAL_REED_ITEM.get());
@@ -46,6 +44,21 @@ public class ModCreativeModeTabs {
                 pOutput.accept(ModItems.BLAZE_REED_ITEM.get());
                 pOutput.accept(ModItems.AMETHYST_REED_ITEM.get());
                 pOutput.accept(ModItems.ANCIENT_DEBRIS_REED_ITEM.get());
+
+                //Mods
+                //Applied Energistics 2
+                pOutput.accept(ModItems.CERTUS_QUARTZ_REED_ITEM.get());
+
+                //Mystical Agriculture & Mystical Agradditions
+                pOutput.accept(ModItems.SOULIUM_REED_ITEM.get());
+                pOutput.accept(ModItems.PROSPERITY_REED_ITEM.get());
+                pOutput.accept(ModItems.DEEPSLATE_PROSPERITY_REED_ITEM.get());
+                pOutput.accept(ModItems.NETHER_PROSPERITY_REED_ITEM.get());
+                pOutput.accept(ModItems.END_PROSPERITY_REED_ITEM.get());
+                pOutput.accept(ModItems.INFERIUM_REED_ITEM.get());
+                pOutput.accept(ModItems.DEEPSLATE_INFERIUM_REED_ITEM.get());
+                pOutput.accept(ModItems.NETHER_INFERIUM_REED_ITEM.get());
+                pOutput.accept(ModItems.END_INFERIUM_REED_ITEM.get());
 
             })
                     .build());

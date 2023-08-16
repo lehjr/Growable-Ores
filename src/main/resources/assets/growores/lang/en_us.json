@@ -25,6 +25,18 @@
   "item.growores.amethyst_reed_item": "Amethyst Reeds",
   "item.growores.ancient_debris_reed_item": "Ancient Debris Reeds",
 
+  "item.growores.certus_quartz_reed_item": "Certus Quartz Reeds",
+
+  "item.growores.soulium_reed_item": "Soulium Reeds",
+  "item.growores.prosperity_reed_item": "Prosperity Reeds",
+  "item.growores.deepslate_prosperity_reed_item": "Deepslate Prosperity Reeds",
+  "item.growores.nether_prosperity_reed_item": "Nether Prosperity Reeds",
+  "item.growores.end_prosperity_reed_item": "End Prosperity Reeds",
+  "item.growores.inferium_reed_item": "Inferium Reeds",
+  "item.growores.deepslate_inferium_reed_item": "Deepslate Inferium Reeds",
+  "item.growores.nether_inferium_reed_item": "Nether Inferium Reeds",
+  "item.growores.end_inferium_reed_item": "End Inferium Reeds",
+
   "block.growores.growing_block": "Growing Block",
 
   "block.growores.coal_reed": "Coal Reeds",
@@ -52,6 +64,18 @@
   "block.growores.ender_reed": "Ender Reeds",
   "block.growores.amethyst_reed": "Amethyst Reeds",
   "block.growores.ancient_debris_reed": "Ancient Debris Reeds",
+
+  "block.growores.certus_quartz_reed": "Certus Quartz Reeds",
+
+  "block.growores.soulium_reed": "Soulium Reeds",
+  "block.growores.prosperity_reed": "Prosperity Reeds",
+  "block.growores.deepslate_prosperity_reed": "Deepslate Prosperity Reeds",
+  "block.growores.nether_prosperity_reed": "Nether Prosperity Reeds",
+  "block.growores.end_prosperity_reed": "End Prosperity Reeds",
+  "block.growores.inferium_reed": "Inferium Reeds",
+  "block.growores.deepslate_inferium_reed": "Deepslate Inferium Reeds",
+  "block.growores.nether_inferium_reed": "Nether Inferium Reeds",
+  "block.growores.end_inferium_reed": "End Inferium Reeds",
 
   "creativetab.growores_tab": "Growable Ores"
 }

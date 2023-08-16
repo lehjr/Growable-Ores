@@ -1,6 +1,7 @@
 package net.kc.growores.datagen;
 
 import net.kc.growores.GrowOres;
+import net.kc.growores.block.ModBlocks;
 import net.kc.growores.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
@@ -42,6 +43,21 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ENDER_REED_ITEM);
         simpleItem(ModItems.AMETHYST_REED_ITEM);
         simpleItem(ModItems.ANCIENT_DEBRIS_REED_ITEM);
+
+        //MODS
+        //Applied Energistics 2
+        simpleItem(ModItems.CERTUS_QUARTZ_REED_ITEM);
+
+        //Mystical Agriculture & Mystical Agradditions
+        simpleItem(ModItems.SOULIUM_REED_ITEM);
+        simpleItem(ModItems.PROSPERITY_REED_ITEM);
+        simpleItem(ModItems.DEEPSLATE_PROSPERITY_REED_ITEM);
+        simpleItem(ModItems.NETHER_PROSPERITY_REED_ITEM);
+        simpleItem(ModItems.END_PROSPERITY_REED_ITEM);
+        simpleItem(ModItems.INFERIUM_REED_ITEM);
+        simpleItem(ModItems.DEEPSLATE_INFERIUM_REED_ITEM);
+        simpleItem(ModItems.NETHER_INFERIUM_REED_ITEM);
+        simpleItem(ModItems.END_INFERIUM_REED_ITEM);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

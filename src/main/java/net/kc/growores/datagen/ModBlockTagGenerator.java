@@ -49,7 +49,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.BLAZE_REED.get())
                 .add(ModBlocks.ENDER_REED.get())
                 .add(ModBlocks.AMETHYST_REED.get())
-                .add(ModBlocks.ANCIENT_DEBRIS_REED.get());
+                .add(ModBlocks.ANCIENT_DEBRIS_REED.get())
+                .add(ModBlocks.CERTUS_QUARTZ_REED.get());
 
         this.tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.GROWING_BLOCK.get())

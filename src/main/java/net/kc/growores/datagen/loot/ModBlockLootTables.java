@@ -49,6 +49,22 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.ENDER_REED.get());
         this.dropSelf(ModBlocks.AMETHYST_REED.get());
         this.dropSelf(ModBlocks.ANCIENT_DEBRIS_REED.get());
+
+        //MODS
+        //Applied Energistics 2
+        this.dropSelf(ModBlocks.CERTUS_QUARTZ_REED.get());
+
+        //Mystical Agriculture & Mystical Agradditions
+        this.dropSelf(ModBlocks.SOULIUM_REED.get());
+        this.dropSelf(ModBlocks.PROSPERITY_REED.get());
+        this.dropSelf(ModBlocks.DEEPSLATE_PROSPERITY_REED.get());
+        this.dropSelf(ModBlocks.NETHER_PROSPERITY_REED.get());
+        this.dropSelf(ModBlocks.END_PROSPERITY_REED.get());
+        this.dropSelf(ModBlocks.INFERIUM_REED.get());
+        this.dropSelf(ModBlocks.DEEPSLATE_INFERIUM_REED.get());
+        this.dropSelf(ModBlocks.NETHER_INFERIUM_REED.get());
+        this.dropSelf(ModBlocks.END_INFERIUM_REED.get());
+
     }
 
     protected LootTable.Builder createCopperLikeOreDrops(Block pBlock, Item item) {

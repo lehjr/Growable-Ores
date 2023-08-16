@@ -130,6 +130,70 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.EMERALD_REED_ITEM.get()), has(ModItems.EMERALD_REED_ITEM.get()))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DEEPSLATE_COAL_REED_ITEM.get())
+                .pattern("RSR")
+                .pattern("RXR")
+                .pattern("RSR")
+                .define('R', Items.SUGAR_CANE).define('S', Blocks.DEEPSLATE).define('X', Items.COAL)
+                .unlockedBy(getHasName(ModBlocks.GROWING_BLOCK.get()), has(Items.COAL))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DEEPSLATE_IRON_REED_ITEM.get())
+                .pattern("RSR")
+                .pattern("RXR")
+                .pattern("RSR")
+                .define('R', Items.SUGAR_CANE).define('S', Blocks.DEEPSLATE).define('X', Items.RAW_IRON)
+                .unlockedBy(getHasName(ModBlocks.GROWING_BLOCK.get()), has(Items.RAW_IRON))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DEEPSLATE_COPPER_REED_ITEM.get())
+                .pattern("RSR")
+                .pattern("RXR")
+                .pattern("RSR")
+                .define('R', Items.SUGAR_CANE).define('S', Blocks.DEEPSLATE).define('X', Items.RAW_COPPER)
+                .unlockedBy(getHasName(ModBlocks.GROWING_BLOCK.get()), has(Items.RAW_COPPER))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DEEPSLATE_GOLD_REED_ITEM.get())
+                .pattern("RSR")
+                .pattern("RXR")
+                .pattern("RSR")
+                .define('R', Items.SUGAR_CANE).define('S', Blocks.DEEPSLATE).define('X', Items.RAW_GOLD)
+                .unlockedBy(getHasName(ModBlocks.GROWING_BLOCK.get()), has(Items.RAW_GOLD))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DEEPSLATE_REDSTONE_REED_ITEM.get())
+                .pattern("RSR")
+                .pattern("RXR")
+                .pattern("RSR")
+                .define('R', Items.SUGAR_CANE).define('S', Blocks.DEEPSLATE).define('X', Items.REDSTONE)
+                .unlockedBy(getHasName(ModBlocks.GROWING_BLOCK.get()), has(Items.REDSTONE))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DEEPSLATE_LAPIS_REED_ITEM.get())
+                .pattern("RSR")
+                .pattern("RXR")
+                .pattern("RSR")
+                .define('R', Items.SUGAR_CANE).define('S', Blocks.DEEPSLATE).define('X', Items.LAPIS_LAZULI)
+                .unlockedBy(getHasName(ModBlocks.GROWING_BLOCK.get()), has(Items.LAPIS_LAZULI))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DEEPSLATE_DIAMOND_REED_ITEM.get())
+                .pattern("RSR")
+                .pattern("RXR")
+                .pattern("RSR")
+                .define('R', Items.SUGAR_CANE).define('S', Blocks.DEEPSLATE).define('X', Items.DIAMOND)
+                .unlockedBy(getHasName(ModBlocks.GROWING_BLOCK.get()), has(Items.DIAMOND))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DEEPSLATE_EMERALD_REED_ITEM.get())
+                .pattern("RSR")
+                .pattern("RXR")
+                .pattern("RSR")
+                .define('R', Items.SUGAR_CANE).define('S', Blocks.DEEPSLATE).define('X', Items.EMERALD)
+                .unlockedBy(getHasName(ModBlocks.GROWING_BLOCK.get()), has(Items.EMERALD))
+                .save(pWriter);
+
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.NETHER_QUARTZ_REED_ITEM.get())
                 .pattern("RSR")
                 .pattern("RXR")
@@ -198,7 +262,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModBlocks.GROWING_BLOCK.get()), has(Items.BLAZE_POWDER))
                 .save(pWriter);
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.BLAZE_ROD)
-                .requires(ModItems.BLAZE_REED_ITEM.get(),8)
+                .requires(ModItems.BLAZE_REED_ITEM.get(),4)
                 .unlockedBy(getHasName(ModItems.BLAZE_REED_ITEM.get()), has(ModItems.BLAZE_REED_ITEM.get()))
                 .save(pWriter);
 
@@ -210,7 +274,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModBlocks.GROWING_BLOCK.get()), has(Items.ENDER_PEARL))
                 .save(pWriter);
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.ENDER_PEARL)
-                .requires(ModItems.ENDER_REED_ITEM.get(), 8)
+                .requires(ModItems.ENDER_REED_ITEM.get(), 4)
                 .unlockedBy(getHasName(ModItems.ENDER_REED_ITEM.get()), has(ModItems.ENDER_REED_ITEM.get()))
                 .save(pWriter);
 
@@ -237,7 +301,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModItems.ANCIENT_DEBRIS_REED_ITEM.get(),8)
                 .unlockedBy(getHasName(ModItems.ANCIENT_DEBRIS_REED_ITEM.get()), has(ModItems.ANCIENT_DEBRIS_REED_ITEM.get()))
                 .save(pWriter);
-
     }
 
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTIme, String pGroup) {
