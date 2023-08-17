@@ -1,4 +1,4 @@
-// 1.20.1	2023-08-17T00:10:11.7058024	Block States: growores
+// 1.20.1	2023-08-17T21:34:22.0933328	Block States: growores
 5966bef4aeafb8d7c2861c956ce115388e9078bc assets/growores/blockstates/amethyst_reed.json
 ee0fd9e501459e6610208b12a9918bba34c461f6 assets/growores/blockstates/ancient_debris_reed.json
 a22fb1ae0fb9bd3f3c9cc5c50c5fabcf5ba540ee assets/growores/blockstates/blaze_reed.json
@@ -83,27 +83,18 @@ acd30daadbf38d67afe49c882ace2d5907cc9e48 assets/growores/models/item/deepslate_c
 7f76614d85d3586789b5431c630861d322bcbfef assets/growores/models/item/deepslate_diamond_reed.json
 1bb27854a2708ee5e25f3e9e0c357562f78375a4 assets/growores/models/item/deepslate_emerald_reed.json
 ede229b6ea7bbf5b65c95c20c114ffb50e2610e7 assets/growores/models/item/deepslate_gold_reed.json
-cdd04345a5e2b93710b2afe405348837f4b6fb26 assets/growores/models/item/deepslate_inferium_reed.json
 8b8fc0a1abb1c3b9bc9e7b8d6b73af2f448068b6 assets/growores/models/item/deepslate_iron_reed.json
 886224dc94d9b2c23a25a7dce30c6d5bfb1499fb assets/growores/models/item/deepslate_lapis_reed.json
-e877a80d0fd126c0192603b8e9f23b3919fe3023 assets/growores/models/item/deepslate_prosperity_reed.json
 f6711c43bd16c356acf80517322b20146c2df30a assets/growores/models/item/deepslate_redstone_reed.json
 ec3c7f441890ce2078b5d39cb17169fbfca20280 assets/growores/models/item/diamond_reed.json
 731ac232f761eec5b44faaf8d154508e2786c7c4 assets/growores/models/item/emerald_reed.json
 e3e0be3a3555a89577bf57ada83571d1d05340ad assets/growores/models/item/ender_reed.json
-286272628d31f4bbadb69aefc83ce08a7f1ed1f4 assets/growores/models/item/end_inferium_reed.json
-ec749cb48e3e443997cd1a4c3042f024fad6a0f3 assets/growores/models/item/end_prosperity_reed.json
 d5371469cd91f11e435eb977d92d14023fbfc2de assets/growores/models/item/glowstone_reed.json
 c75e15f5f990ef8418b5a256393e7521c201bbb0 assets/growores/models/item/gold_reed.json
 3174ed4d2f97d5d7ba526557083958bdfb27c6da assets/growores/models/item/growing_block.json
-c023f5c85f466c225ac57f6e40c6c41d330ecfc3 assets/growores/models/item/inferium_reed.json
 6ff0e4c701975284cb011f934c88d53013b8708a assets/growores/models/item/iron_reed.json
 4a9be5e1e4c61198d3a1eacb5ad552514118a96d assets/growores/models/item/lapis_reed.json
 a9d3624b78daefa78802075ddf33f16b9b25526c assets/growores/models/item/nether_gold_reed.json
-f9cf9e0418a5b7ef5a17f4e052a286c611340368 assets/growores/models/item/nether_inferium_reed.json
-a5d3e85e8e4de5ff4d9945126715425d95296a1d assets/growores/models/item/nether_prosperity_reed.json
 1636eddc2a370ef7e33055f96bbb802ba5826f31 assets/growores/models/item/nether_quartz_reed.json
 854cd2d40887b4bba59b3f0ecb338ad6d3ffe94d assets/growores/models/item/obsidian_reed.json
-6e72e46f79c371c88d399741917a35a906910c67 assets/growores/models/item/prosperity_reed.json
 027d6592176d42ff6f755369fe4c8d60d9543097 assets/growores/models/item/redstone_reed.json
-5bc49f6d912b3ef7dd0584ce316cd39a01998c0c assets/growores/models/item/soulium_reed.json

@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/tinted_cross",
-  "textures": {
-    "cross": "growores:block/deepslate_coal_reed"
-  },
-  "render_type": "cutout"
-}

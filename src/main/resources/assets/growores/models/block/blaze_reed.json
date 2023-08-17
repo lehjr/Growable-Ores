@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/tinted_cross",
-  "textures": {
-    "cross": "growores:block/blaze_reed"
-  },
-  "render_type": "cutout"
-}

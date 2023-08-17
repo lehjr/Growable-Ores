@@ -18,7 +18,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
 
         blockWithItem(ModBlocks.GROWING_BLOCK);
-
         //Add the following to the above *once* after adding new blocks, then move and replace generated block models
         blockWithItem(ModBlocks.COAL_REED);
         blockWithItem(ModBlocks.IRON_REED);
@@ -51,21 +50,25 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.CERTUS_QUARTZ_REED);
 
         //Mystical Agriculture & Mystical Agradditions
-        blockWithItem(ModBlocks.SOULIUM_REED);
-        blockWithItem(ModBlocks.PROSPERITY_REED);
-        blockWithItem(ModBlocks.DEEPSLATE_PROSPERITY_REED);
-        blockWithItem(ModBlocks.NETHER_PROSPERITY_REED);
-        blockWithItem(ModBlocks.END_PROSPERITY_REED);
-        blockWithItem(ModBlocks.INFERIUM_REED);
-        blockWithItem(ModBlocks.DEEPSLATE_INFERIUM_REED);
-        blockWithItem(ModBlocks.NETHER_INFERIUM_REED);
-        blockWithItem(ModBlocks.END_INFERIUM_REED);
+        blockWithoutItem(ModBlocks.SOULIUM_REED);
+        blockWithoutItem(ModBlocks.PROSPERITY_REED);
+        blockWithoutItem(ModBlocks.DEEPSLATE_PROSPERITY_REED);
+        blockWithoutItem(ModBlocks.NETHER_PROSPERITY_REED);
+        blockWithoutItem(ModBlocks.END_PROSPERITY_REED);
+        blockWithoutItem(ModBlocks.INFERIUM_REED);
+        blockWithoutItem(ModBlocks.DEEPSLATE_INFERIUM_REED);
+        blockWithoutItem(ModBlocks.NETHER_INFERIUM_REED);
+        blockWithoutItem(ModBlocks.END_INFERIUM_REED);
     }
 
 
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
         simpleBlockWithItem(blockRegistryObject.get(), cubeAll(blockRegistryObject.get()));
+    }
+
+    private void blockWithoutItem(RegistryObject<Block> blockRegistryObject) {
+        simpleBlock(blockRegistryObject.get(), cubeAll(blockRegistryObject.get()));
     }
 
 }
