@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "growores:deepslate_zinc_reed_item"
+    },
+    {
+      "item": "growores:deepslate_zinc_reed_item"
+    },
+    {
+      "item": "growores:deepslate_zinc_reed_item"
+    },
+    {
+      "item": "growores:deepslate_zinc_reed_item"
+    },
+    {
+      "item": "growores:deepslate_zinc_reed_item"
+    },
+    {
+      "item": "growores:deepslate_zinc_reed_item"
+    }
+  ],
+  "result": {
+    "item": "create:raw_zinc"
+  }
+}

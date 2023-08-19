@@ -59,6 +59,24 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithoutItem(ModBlocks.DEEPSLATE_INFERIUM_REED);
         blockWithoutItem(ModBlocks.NETHER_INFERIUM_REED);
         blockWithoutItem(ModBlocks.END_INFERIUM_REED);
+
+        //Extreme Reactors
+        blockWithoutItem(ModBlocks.ANGLESITE_REED);
+        blockWithoutItem(ModBlocks.BENITOITE_REED);
+        blockWithoutItem(ModBlocks.YELLORITE_REED);
+
+        //RFTools
+        blockWithoutItem(ModBlocks.DIMENSIONALSHARD_REED);
+        blockWithoutItem(ModBlocks.NETHER_DIMENSIONALSHARD_REED);
+        blockWithoutItem(ModBlocks.END_DIMENSIONALSHARD_REED);
+
+        //Powah! Rearchitected
+        blockWithoutItem(ModBlocks.URANINITE_REED);
+        blockWithoutItem(ModBlocks.DEEPSLATE_URANINITE_REED);
+
+        //Create
+        blockWithoutItem(ModBlocks.ZINC_REED);
+        blockWithoutItem(ModBlocks.DEEPSLATE_ZINC_REED);
     }
 
 

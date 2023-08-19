@@ -65,6 +65,26 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.NETHER_INFERIUM_REED.get());
         this.dropSelf(ModBlocks.END_INFERIUM_REED.get());
 
+        //Extreme Reactors
+        this.dropSelf(ModBlocks.ANGLESITE_REED.get());
+        this.dropSelf(ModBlocks.BENITOITE_REED.get());
+        this.dropSelf(ModBlocks.YELLORITE_REED.get());
+
+        //RFTools
+        this.dropSelf(ModBlocks.DIMENSIONALSHARD_REED.get());
+        this.dropSelf(ModBlocks.NETHER_DIMENSIONALSHARD_REED.get());
+        this.dropSelf(ModBlocks.END_DIMENSIONALSHARD_REED.get());
+
+        //Powah! Rearchitected
+        this.dropSelf(ModBlocks.URANINITE_REED.get());
+        this.dropSelf(ModBlocks.DEEPSLATE_URANINITE_REED.get());
+
+        //Create
+        this.dropSelf(ModBlocks.ZINC_REED.get());
+        this.dropSelf(ModBlocks.DEEPSLATE_ZINC_REED.get());
+
+
+
     }
 
     protected LootTable.Builder createCopperLikeOreDrops(Block pBlock, Item item) {

@@ -2,10 +2,14 @@ package net.kc.growores.item;
 
 import net.kc.growores.GrowOres;
 import net.kc.growores.block.ModBlocks;
+import net.kc.growores.block.custom.OreReedBlock;
 import net.kc.growores.item.custom.FuelItem;
 import net.kc.growores.item.custom.MetalDetectorItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemNameBlockItem;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -89,6 +93,35 @@ public class ModItems {
             () -> new ItemNameBlockItem(ModBlocks.NETHER_INFERIUM_REED.get(), new Item.Properties()));
     public static final RegistryObject<Item> END_INFERIUM_REED_ITEM = ITEMS.register("end_inferium_reed_item",
             () -> new ItemNameBlockItem(ModBlocks.END_INFERIUM_REED.get(), new Item.Properties()));
+
+    //Extreme Reactors
+    public static final RegistryObject<Item> ANGLESITE_REED_ITEM = ITEMS.register("anglesite_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.ANGLESITE_REED.get(), new Item.Properties()));
+    public static final RegistryObject<Item> BENITOITE_REED_ITEM = ITEMS.register("benitoite_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.BENITOITE_REED.get(), new Item.Properties()));
+    public static final RegistryObject<Item> YELLORITE_REED_ITEM = ITEMS.register("yellorite_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.YELLORITE_REED.get(), new Item.Properties()));
+
+    //RFTools
+    public static final RegistryObject<Item> DIMENSIONALSHARD_REED_ITEM = ITEMS.register("dimensionalshard_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.DIMENSIONALSHARD_REED.get(), new Item.Properties()));
+    public static final RegistryObject<Item> NETHER_DIMENSIONALSHARD_REED_ITEM = ITEMS.register("nether_dimensionalshard_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.NETHER_DIMENSIONALSHARD_REED.get(), new Item.Properties()));
+    public static final RegistryObject<Item> END_DIMENSIONALSHARD_REED_ITEM = ITEMS.register("end_dimensionalshard_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.END_DIMENSIONALSHARD_REED.get(), new Item.Properties()));
+
+    //Powah! Rearchitected
+    public static final RegistryObject<Item> URANITITE_REED_ITEM = ITEMS.register("uraninite_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.URANINITE_REED.get(), new Item.Properties()));
+    public static final RegistryObject<Item> DEEPSLATE_URANITITE_REED_ITEM = ITEMS.register("deepslate_uraninite_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.DEEPSLATE_URANINITE_REED.get(), new Item.Properties()));
+
+    //Create
+    public static final RegistryObject<Item> ZINC_REED_ITEM = ITEMS.register("zinc_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.ZINC_REED.get(), new Item.Properties()));
+    public static final RegistryObject<Item> DEEPSLATE_ZINC_REED_ITEM = ITEMS.register("deepslate_zinc_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.DEEPSLATE_ZINC_REED.get(), new Item.Properties()));
+
 
 
     public static void register(IEventBus eventBus){

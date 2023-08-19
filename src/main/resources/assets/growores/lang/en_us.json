@@ -37,6 +37,20 @@
   "item.growores.nether_inferium_reed_item": "Nether Inferium Reeds",
   "item.growores.end_inferium_reed_item": "End Inferium Reeds",
 
+  "item.growores.anglesite_reed_item": "Anglesite Reeds",
+  "item.growores.benitoite_reed_item": "Benitoite Reeds",
+  "item.growores.yellorite_reed_item": "Yellorite Reeds",
+
+  "item.growores.dimensionalshard_reed_item": "Dimensional Shard Reeds",
+  "item.growores.nether_dimensionalshard_reed_item": "Nether Dimensional Shard Reeds",
+  "item.growores.end_dimensionalshard_reed_item": "End Dimensional Shard Reeds",
+
+  "item.growores.uraninite_reed_item": "Uraninite Reeds",
+  "item.growores.deepslate_uraninite_reed_item": "Deepslate Uraninite Reeds",
+
+  "item.growores.zinc_reed_item": "Zinc Reeds",
+  "item.growores.deepslate_zinc_reed_item": "Deepslate Zinc Reeds",
+
   "block.growores.growing_block": "Growing Block",
 
   "block.growores.coal_reed": "Coal Reeds",
@@ -76,6 +90,20 @@
   "block.growores.deepslate_inferium_reed": "Deepslate Inferium Reeds",
   "block.growores.nether_inferium_reed": "Nether Inferium Reeds",
   "block.growores.end_inferium_reed": "End Inferium Reeds",
+
+  "block.growores.anglesite_reed": "Anglesite Reeds",
+  "block.growores.benitoite_reed": "Benitoite Reeds",
+  "block.growores.yellorite_reed": "Yellorite Reeds",
+
+  "block.growores.dimensionalshard_reed": "Dimensional Shard Reeds",
+  "block.growores.nether_dimensionalshard_reed": "Nether Dimensional Shard Reeds",
+  "block.growores.end_dimensionalshard_reed": "End Dimensional Shard Reeds",
+
+  "block.growores.uraninite_reed": "Uraninite Reeds",
+  "block.growores.deepslate_uraninite_reed": "Deepslate Uraninite Reeds",
+
+  "block.growores.zinc_reed": "Zinc Reeds",
+  "block.growores.deepslate_zinc_reed": "Deepslate Zinc Reeds",
 
   "creativetab.growores_tab": "Growable Ores"
 }

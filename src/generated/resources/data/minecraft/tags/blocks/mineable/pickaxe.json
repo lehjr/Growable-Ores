@@ -24,6 +24,25 @@
     "growores:ender_reed",
     "growores:amethyst_reed",
     "growores:ancient_debris_reed",
-    "growores:certus_quartz_reed"
+    "growores:certus_quartz_reed",
+    "growores:soulium_reed",
+    "growores:prosperity_reed",
+    "growores:deepslate_prosperity_reed",
+    "growores:nether_prosperity_reed",
+    "growores:end_prosperity_reed",
+    "growores:inferium_reed",
+    "growores:deepslate_inferium_reed",
+    "growores:nether_inferium_reed",
+    "growores:end_inferium_reed",
+    "growores:anglesite_reed",
+    "growores:benitoite_reed",
+    "growores:yellorite_reed",
+    "growores:dimensionalshard_reed",
+    "growores:nether_dimensionalshard_reed",
+    "growores:end_dimensionalshard_reed",
+    "growores:uraninite_reed",
+    "growores:deepslate_uraninite_reed",
+    "growores:zinc_reed",
+    "growores:deepslate_zinc_reed"
   ]
 }

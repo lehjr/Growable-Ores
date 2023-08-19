@@ -20,84 +20,67 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-        simpleItem(ModItems.COAL_REED_ITEM);
-        simpleItem(ModItems.IRON_REED_ITEM);
-        simpleItem(ModItems.COPPER_REED_ITEM);
-        simpleItem(ModItems.GOLD_REED_ITEM);
-        simpleItem(ModItems.REDSTONE_REED_ITEM);
-        simpleItem(ModItems.LAPIS_REED_ITEM);
-        simpleItem(ModItems.DIAMOND_REED_ITEM);
-        simpleItem(ModItems.EMERALD_REED_ITEM);
-        simpleItem(ModItems.DEEPSLATE_COAL_REED_ITEM);
-        simpleItem(ModItems.DEEPSLATE_IRON_REED_ITEM);
-        simpleItem(ModItems.DEEPSLATE_COPPER_REED_ITEM);
-        simpleItem(ModItems.DEEPSLATE_GOLD_REED_ITEM);
-        simpleItem(ModItems.DEEPSLATE_REDSTONE_REED_ITEM);
-        simpleItem(ModItems.DEEPSLATE_LAPIS_REED_ITEM);
-        simpleItem(ModItems.DEEPSLATE_DIAMOND_REED_ITEM);
-        simpleItem(ModItems.DEEPSLATE_EMERALD_REED_ITEM);
-        simpleItem(ModItems.NETHER_QUARTZ_REED_ITEM);
-        simpleItem(ModItems.NETHER_GOLD_REED_ITEM);
-        simpleItem(ModItems.OBSIDIAN_REED_ITEM);
-        simpleItem(ModItems.GLOWSTONE_REED_ITEM);
-        simpleItem(ModItems.CLAY_REED_ITEM);
-        simpleItem(ModItems.BLAZE_REED_ITEM);
-        simpleItem(ModItems.ENDER_REED_ITEM);
-        simpleItem(ModItems.AMETHYST_REED_ITEM);
-        simpleItem(ModItems.ANCIENT_DEBRIS_REED_ITEM);
 
-        reedBlock(ModBlocks.COAL_REED);
-        reedBlock(ModBlocks.IRON_REED);
-        reedBlock(ModBlocks.COPPER_REED);
-        reedBlock(ModBlocks.GOLD_REED);
-        reedBlock(ModBlocks.REDSTONE_REED);
-        reedBlock(ModBlocks.LAPIS_REED);
-        reedBlock(ModBlocks.DIAMOND_REED);
-        reedBlock(ModBlocks.EMERALD_REED);
-        reedBlock(ModBlocks.DEEPSLATE_COAL_REED);
-        reedBlock(ModBlocks.DEEPSLATE_IRON_REED);
-        reedBlock(ModBlocks.DEEPSLATE_COPPER_REED);
-        reedBlock(ModBlocks.DEEPSLATE_GOLD_REED);
-        reedBlock(ModBlocks.DEEPSLATE_REDSTONE_REED);
-        reedBlock(ModBlocks.DEEPSLATE_LAPIS_REED);
-        reedBlock(ModBlocks.DEEPSLATE_DIAMOND_REED);
-        reedBlock(ModBlocks.DEEPSLATE_EMERALD_REED);
-        reedBlock(ModBlocks.NETHER_QUARTZ_REED);
-        reedBlock(ModBlocks.NETHER_GOLD_REED);
-        reedBlock(ModBlocks.OBSIDIAN_REED);
-        reedBlock(ModBlocks.GLOWSTONE_REED);
-        reedBlock(ModBlocks.CLAY_REED);
-        reedBlock(ModBlocks.BLAZE_REED);
-        reedBlock(ModBlocks.ENDER_REED);
-        reedBlock(ModBlocks.AMETHYST_REED);
-        reedBlock(ModBlocks.ANCIENT_DEBRIS_REED);
+
+        reedBlockAndItem(ModBlocks.COAL_REED, ModItems.COAL_REED_ITEM);
+        reedBlockAndItem(ModBlocks.IRON_REED, ModItems.IRON_REED_ITEM);
+        reedBlockAndItem(ModBlocks.COPPER_REED, ModItems.COPPER_REED_ITEM);
+        reedBlockAndItem(ModBlocks.GOLD_REED, ModItems.GOLD_REED_ITEM);
+        reedBlockAndItem(ModBlocks.REDSTONE_REED, ModItems.REDSTONE_REED_ITEM);
+        reedBlockAndItem(ModBlocks.LAPIS_REED, ModItems.LAPIS_REED_ITEM);
+        reedBlockAndItem(ModBlocks.DIAMOND_REED, ModItems.DIAMOND_REED_ITEM);
+        reedBlockAndItem(ModBlocks.EMERALD_REED, ModItems.EMERALD_REED_ITEM);
+        reedBlockAndItem(ModBlocks.DEEPSLATE_COAL_REED, ModItems.DEEPSLATE_COAL_REED_ITEM);
+        reedBlockAndItem(ModBlocks.DEEPSLATE_IRON_REED, ModItems.DEEPSLATE_IRON_REED_ITEM);
+        reedBlockAndItem(ModBlocks.DEEPSLATE_COPPER_REED, ModItems.DEEPSLATE_COPPER_REED_ITEM);
+        reedBlockAndItem(ModBlocks.DEEPSLATE_GOLD_REED, ModItems.DEEPSLATE_GOLD_REED_ITEM);
+        reedBlockAndItem(ModBlocks.DEEPSLATE_REDSTONE_REED, ModItems.DEEPSLATE_REDSTONE_REED_ITEM);
+        reedBlockAndItem(ModBlocks.DEEPSLATE_LAPIS_REED, ModItems.DEEPSLATE_LAPIS_REED_ITEM);
+        reedBlockAndItem(ModBlocks.DEEPSLATE_DIAMOND_REED, ModItems.DEEPSLATE_DIAMOND_REED_ITEM);
+        reedBlockAndItem(ModBlocks.DEEPSLATE_EMERALD_REED, ModItems.DEEPSLATE_EMERALD_REED_ITEM);
+        reedBlockAndItem(ModBlocks.NETHER_QUARTZ_REED, ModItems.NETHER_QUARTZ_REED_ITEM);
+        reedBlockAndItem(ModBlocks.NETHER_GOLD_REED, ModItems.NETHER_GOLD_REED_ITEM);
+        reedBlockAndItem(ModBlocks.OBSIDIAN_REED, ModItems.OBSIDIAN_REED_ITEM);
+        reedBlockAndItem(ModBlocks.GLOWSTONE_REED, ModItems.GLOWSTONE_REED_ITEM);
+        reedBlockAndItem(ModBlocks.CLAY_REED, ModItems.CLAY_REED_ITEM);
+        reedBlockAndItem(ModBlocks.BLAZE_REED, ModItems.BLAZE_REED_ITEM);
+        reedBlockAndItem(ModBlocks.ENDER_REED, ModItems.ENDER_REED_ITEM);
+        reedBlockAndItem(ModBlocks.AMETHYST_REED, ModItems.AMETHYST_REED_ITEM);
+        reedBlockAndItem(ModBlocks.ANCIENT_DEBRIS_REED, ModItems.ANCIENT_DEBRIS_REED_ITEM);
 
         //MODS
         //Applied Energistics 2
-        simpleItem(ModItems.CERTUS_QUARTZ_REED_ITEM);
-
-        reedBlock(ModBlocks.CERTUS_QUARTZ_REED);
+        reedBlockAndItem(ModBlocks.CERTUS_QUARTZ_REED, ModItems.CERTUS_QUARTZ_REED_ITEM);
 
         //Mystical Agriculture & Mystical Agradditions
-        simpleItem(ModItems.SOULIUM_REED_ITEM);
-        simpleItem(ModItems.PROSPERITY_REED_ITEM);
-        simpleItem(ModItems.DEEPSLATE_PROSPERITY_REED_ITEM);
-        simpleItem(ModItems.NETHER_PROSPERITY_REED_ITEM);
-        simpleItem(ModItems.END_PROSPERITY_REED_ITEM);
-        simpleItem(ModItems.INFERIUM_REED_ITEM);
-        simpleItem(ModItems.DEEPSLATE_INFERIUM_REED_ITEM);
-        simpleItem(ModItems.NETHER_INFERIUM_REED_ITEM);
-        simpleItem(ModItems.END_INFERIUM_REED_ITEM);
+        reedBlockAndItem(ModBlocks.SOULIUM_REED, ModItems.SOULIUM_REED_ITEM);
+        reedBlockAndItem(ModBlocks.PROSPERITY_REED, ModItems.PROSPERITY_REED_ITEM);
+        reedBlockAndItem(ModBlocks.DEEPSLATE_PROSPERITY_REED, ModItems.DEEPSLATE_PROSPERITY_REED_ITEM);
+        reedBlockAndItem(ModBlocks.NETHER_PROSPERITY_REED, ModItems.NETHER_PROSPERITY_REED_ITEM);
+        reedBlockAndItem(ModBlocks.END_PROSPERITY_REED, ModItems.END_PROSPERITY_REED_ITEM);
+        reedBlockAndItem(ModBlocks.INFERIUM_REED, ModItems.INFERIUM_REED_ITEM);
+        reedBlockAndItem(ModBlocks.DEEPSLATE_INFERIUM_REED, ModItems.DEEPSLATE_INFERIUM_REED_ITEM);
+        reedBlockAndItem(ModBlocks.NETHER_INFERIUM_REED, ModItems.NETHER_INFERIUM_REED_ITEM);
+        reedBlockAndItem(ModBlocks.END_INFERIUM_REED, ModItems.END_INFERIUM_REED_ITEM);
 
-        reedBlock(ModBlocks.SOULIUM_REED);
-        reedBlock(ModBlocks.PROSPERITY_REED);
-        reedBlock(ModBlocks.DEEPSLATE_PROSPERITY_REED);
-        reedBlock(ModBlocks.NETHER_PROSPERITY_REED);
-        reedBlock(ModBlocks.END_PROSPERITY_REED);
-        reedBlock(ModBlocks.INFERIUM_REED);
-        reedBlock(ModBlocks.DEEPSLATE_INFERIUM_REED);
-        reedBlock(ModBlocks.NETHER_INFERIUM_REED);
-        reedBlock(ModBlocks.END_INFERIUM_REED);
+        //Extreme Reactors
+        reedBlockAndItem(ModBlocks.ANGLESITE_REED, ModItems.ANGLESITE_REED_ITEM);
+        reedBlockAndItem(ModBlocks.BENITOITE_REED, ModItems.BENITOITE_REED_ITEM);
+        reedBlockAndItem(ModBlocks.YELLORITE_REED, ModItems.YELLORITE_REED_ITEM);
+
+        //RFTools
+        reedBlockAndItem(ModBlocks.DIMENSIONALSHARD_REED, ModItems.DIMENSIONALSHARD_REED_ITEM);
+        reedBlockAndItem(ModBlocks.NETHER_DIMENSIONALSHARD_REED, ModItems.NETHER_DIMENSIONALSHARD_REED_ITEM);
+        reedBlockAndItem(ModBlocks.END_DIMENSIONALSHARD_REED, ModItems.END_DIMENSIONALSHARD_REED_ITEM);
+
+        //Powah! Rearchitected
+        reedBlockAndItem(ModBlocks.URANINITE_REED, ModItems.URANITITE_REED_ITEM);
+        reedBlockAndItem(ModBlocks.DEEPSLATE_URANINITE_REED, ModItems.DEEPSLATE_URANITITE_REED_ITEM);
+
+        //Create
+        reedBlockAndItem(ModBlocks.ZINC_REED, ModItems.ZINC_REED_ITEM);
+        reedBlockAndItem(ModBlocks.DEEPSLATE_ZINC_REED, ModItems.DEEPSLATE_ZINC_REED_ITEM);
+
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
@@ -110,5 +93,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/cross"))
                 .texture("cross",  new ResourceLocation(GrowOres.MOD_ID, "block/" + block.getId().getPath()))
                 .renderType("cutout");
+    }
+
+    public void reedBlockAndItem(RegistryObject<Block> block, RegistryObject<Item> item){
+        reedBlock(block);
+        simpleItem(item);
     }
 }

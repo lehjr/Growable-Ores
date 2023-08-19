@@ -2,9 +2,11 @@ package net.kc.growores.block;
 
 import net.kc.growores.GrowOres;
 import net.kc.growores.block.custom.OreReedBlock;
+import net.kc.growores.datagen.ModItemModelProvider;
 import net.kc.growores.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemNameBlockItem;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
@@ -16,12 +18,15 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.function.Supplier;
 
 public class ModBlocks {
 
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, GrowOres.MOD_ID);
+
 
     public static final RegistryObject<Block> GROWING_BLOCK = registerBlock("growing_block",
             ()-> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.GRAVEL)));
@@ -103,6 +108,33 @@ public class ModBlocks {
     public static final RegistryObject<Block> END_INFERIUM_REED = BLOCKS.register("end_inferium_reed",
             ()-> new OreReedBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE), 4));
 
+    //Extreme Reactors
+    public static final RegistryObject<Block> ANGLESITE_REED = BLOCKS.register("anglesite_reed",
+            ()-> new OreReedBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE), 4));
+    public static final RegistryObject<Block> BENITOITE_REED = BLOCKS.register("benitoite_reed",
+            ()-> new OreReedBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_QUARTZ_ORE), 4));
+    public static final RegistryObject<Block> YELLORITE_REED = BLOCKS.register("yellorite_reed",
+            ()-> new OreReedBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE), 4));
+
+    //RFTools
+    public static final RegistryObject<Block> DIMENSIONALSHARD_REED = registerReedBlock("dimensionalshard_reed", Blocks.IRON_ORE, 4);
+    public static final RegistryObject<Block> NETHER_DIMENSIONALSHARD_REED = BLOCKS.register("nether_dimensionalshard_reed",
+            ()-> new OreReedBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_QUARTZ_ORE), 5));
+    public static final RegistryObject<Block> END_DIMENSIONALSHARD_REED = BLOCKS.register("end_dimensionalshard_reed",
+            ()-> new OreReedBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE), 5));
+
+    //Powah! Rearchitected
+    public static final RegistryObject<Block> URANINITE_REED = registerReedBlock("uraninite_reed", Blocks.IRON_ORE, 4);
+    public static final RegistryObject<Block> DEEPSLATE_URANINITE_REED = registerReedBlock("deepslate_uraninite_reed", Blocks.DEEPSLATE_IRON_ORE, 3);
+
+    //Create
+    public static final RegistryObject<Block> ZINC_REED = registerReedBlock("zinc_reed", Blocks.IRON_ORE, 4);
+    public static final RegistryObject<Block> DEEPSLATE_ZINC_REED = registerReedBlock("deepslate_zinc_reed", Blocks.DEEPSLATE_IRON_ORE, 3);
+
+
+    private static <T extends Block> RegistryObject<T> registerReedBlock(String name, Block templateBlock, int maxHeight){
+        return (RegistryObject<T>) BLOCKS.register(name, ()-> new OreReedBlock(BlockBehaviour.Properties.copy(templateBlock), maxHeight));
+    }
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
@@ -117,4 +149,7 @@ public class ModBlocks {
     public static void register(IEventBus eventBus){
         BLOCKS.register(eventBus);
     }
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, GrowOres.MOD_ID);
+
+
 }

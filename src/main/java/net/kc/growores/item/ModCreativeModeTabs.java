@@ -60,6 +60,24 @@ public class ModCreativeModeTabs {
                 pOutput.accept(ModItems.NETHER_INFERIUM_REED_ITEM.get());
                 pOutput.accept(ModItems.END_INFERIUM_REED_ITEM.get());
 
+                //Extreme Reactors
+                pOutput.accept(ModItems.ANGLESITE_REED_ITEM.get());
+                pOutput.accept(ModItems.BENITOITE_REED_ITEM.get());
+                pOutput.accept(ModItems.YELLORITE_REED_ITEM.get());
+
+                //RFTools
+                pOutput.accept(ModItems.DIMENSIONALSHARD_REED_ITEM.get());
+                pOutput.accept(ModItems.NETHER_DIMENSIONALSHARD_REED_ITEM.get());
+                pOutput.accept(ModItems.END_DIMENSIONALSHARD_REED_ITEM.get());
+
+                //Powah! Rearchitected
+                pOutput.accept(ModItems.URANITITE_REED_ITEM.get());
+                pOutput.accept(ModItems.DEEPSLATE_URANITITE_REED_ITEM.get());
+
+                //Create
+                pOutput.accept(ModItems.ZINC_REED_ITEM.get());
+                pOutput.accept(ModItems.DEEPSLATE_ZINC_REED_ITEM.get());
+
             })
                     .build());
     public static void register(IEventBus eventBus){
