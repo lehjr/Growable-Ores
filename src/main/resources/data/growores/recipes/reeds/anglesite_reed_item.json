@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "minecraft:sugar_cane"
+    },
+    "S": {
+      "item": "minecraft:end_stone"
+    },
+    "X": {
+      "item": "bigreactors:anglesite_crystal"
+    }
+  },
+  "pattern": [
+    "RSR",
+    "RXR",
+    "RSR"
+  ],
+  "result": {
+    "item": "growores:anglesite_reed_item"
+  },
+  "show_notification": true
+}

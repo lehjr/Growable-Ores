@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "growores:nether_prosperity_reed_item"
+    },
+    {
+      "item": "growores:nether_prosperity_reed_item"
+    }
+  ],
+  "result": {
+    "item": "mysticalagriculture:prosperity_shard"
+  }
+}

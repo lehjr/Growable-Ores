@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "growores:item/deepslate_uraninite_reed_item"
+  }
+}

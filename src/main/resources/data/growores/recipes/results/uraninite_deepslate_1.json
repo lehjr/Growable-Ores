@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "growores:deepslate_uraninite_reed_item"
+    },
+    {
+      "item": "growores:deepslate_uraninite_reed_item"
+    }
+  ],
+  "result": {
+    "item": "powah:uraninite_raw"
+  }
+}

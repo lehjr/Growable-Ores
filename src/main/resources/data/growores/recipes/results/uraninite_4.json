@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "growores:uraninite_reed_item"
+    },
+    {
+      "item": "growores:uraninite_reed_item"
+    },
+    {
+      "item": "growores:uraninite_reed_item"
+    },
+    {
+      "item": "growores:uraninite_reed_item"
+    },
+    {
+      "item": "growores:uraninite_reed_item"
+    },
+    {
+      "item": "growores:uraninite_reed_item"
+    },
+    {
+      "item": "growores:uraninite_reed_item"
+    },
+    {
+      "item": "growores:uraninite_reed_item"
+    },
+    {
+      "item": "growores:uraninite_reed_item"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "powah:uraninite_raw"
+  }
+}

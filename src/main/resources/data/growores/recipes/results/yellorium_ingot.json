@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "growores:yellorite_reed_item"
+    },
+    {
+      "item": "growores:yellorite_reed_item"
+    },
+    {
+      "item": "growores:yellorite_reed_item"
+    },
+    {
+      "item": "growores:yellorite_reed_item"
+    },
+    {
+      "item": "growores:yellorite_reed_item"
+    },
+    {
+      "item": "growores:yellorite_reed_item"
+    },
+    {
+      "item": "growores:yellorite_reed_item"
+    },
+    {
+      "item": "growores:yellorite_reed_item"
+    }
+  ],
+  "result": {
+    "item": "bigreactors:yellorium_ingot"
+  }
+}

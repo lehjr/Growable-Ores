@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "growores:block/redstone_reed"
+    }
+  }
+}
