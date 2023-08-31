@@ -43,6 +43,10 @@
     "growores:uraninite_reed",
     "growores:deepslate_uraninite_reed",
     "growores:zinc_reed",
-    "growores:deepslate_zinc_reed"
+    "growores:deepslate_zinc_reed",
+    "growores:allurite_reed",
+    "growores:lumiere_reed",
+    "growores:silver_reed",
+    "growores:deepslate_silver_reed"
   ]
 }

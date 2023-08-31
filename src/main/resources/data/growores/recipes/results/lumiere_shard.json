@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "growores:lumiere_reed_item"
+    }
+  ],
+  "result": {
+    "item": "galosphere:lumiere_shard"
+  }
+}

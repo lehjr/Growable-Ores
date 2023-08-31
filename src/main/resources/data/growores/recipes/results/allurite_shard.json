@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "growores:allurite_reed_item"
+    }
+  ],
+  "result": {
+    "item": "galosphere:allurite_shard"
+  }
+}

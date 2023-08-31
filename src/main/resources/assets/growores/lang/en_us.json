@@ -51,6 +51,11 @@
   "item.growores.zinc_reed_item": "Zinc Reeds",
   "item.growores.deepslate_zinc_reed_item": "Deepslate Zinc Reeds",
 
+  "item.growores.allurite_reed_item": "Allurite Reeds",
+  "item.growores.lumiere_reed_item": "Lumiere Reeds",
+  "item.growores.silver_reed_item": "Silver Reeds",
+  "item.growores.deepslate_silver_reed_item": "Deepslate Silver Reeds",
+
   "block.growores.growing_block": "Growing Block",
 
   "block.growores.coal_reed": "Coal Reeds",
@@ -104,6 +109,11 @@
 
   "block.growores.zinc_reed": "Zinc Reeds",
   "block.growores.deepslate_zinc_reed": "Deepslate Zinc Reeds",
+
+  "block.growores.allurite_reed": "Allurite Reeds",
+  "block.growores.lumiere_reed": "Lumiere Reeds",
+  "block.growores.silver_reed": "Silver Reeds",
+  "block.growores.deepslate_silver_reed": "Deepslate Silver Reeds",
 
   "itemGroup.growores_tab": "Growable Ores"
 }

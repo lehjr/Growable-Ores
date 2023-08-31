@@ -116,6 +116,15 @@ public class ModItems {
     public static final RegistryObject<Item> DEEPSLATE_ZINC_REED_ITEM = ITEMS.register("deepslate_zinc_reed_item",
             () -> new ItemNameBlockItem(ModBlocks.DEEPSLATE_ZINC_REED.get(), new Item.Properties().tab(ModCreativeModeTab.GROWORES_TAB)));
 
+    //Galosphere
+    public static final RegistryObject<Item> ALLURITE_REED_ITEM = ITEMS.register("allurite_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.ALLURITE_REED.get(), new Item.Properties().tab(ModCreativeModeTab.GROWORES_TAB)));
+    public static final RegistryObject<Item> LUMIERE_REED_ITEM = ITEMS.register("lumiere_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.LUMIERE_REED.get(), new Item.Properties().tab(ModCreativeModeTab.GROWORES_TAB)));
+    public static final RegistryObject<Item> SILVER_REED_ITEM = ITEMS.register("silver_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.SILVER_REED.get(), new Item.Properties().tab(ModCreativeModeTab.GROWORES_TAB)));
+    public static final RegistryObject<Item> DEEPSLATE_SILVER_REED_ITEM = ITEMS.register("deepslate_silver_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.DEEPSLATE_SILVER_REED.get(), new Item.Properties().tab(ModCreativeModeTab.GROWORES_TAB)));
 
 
     public static void register(IEventBus eventBus){

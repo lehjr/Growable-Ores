@@ -3,6 +3,8 @@
     "growores:growing_block",
     "growores:coal_reed",
     "growores:iron_reed",
-    "growores:copper_reed"
+    "growores:copper_reed",
+    "growores:silver_reed",
+    "growores:deepslate_silver_reed"
   ]
 }

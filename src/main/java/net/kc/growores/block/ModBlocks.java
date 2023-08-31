@@ -130,6 +130,11 @@ public class ModBlocks {
     public static final RegistryObject<Block> ZINC_REED = registerReedBlock("zinc_reed", SoundType.STONE, 3.0F, 3.0F, 4);
     public static final RegistryObject<Block> DEEPSLATE_ZINC_REED = registerReedBlock("deepslate_zinc_reed", SoundType.DEEPSLATE, 4.5F, 3.0F, 3);
 
+    //Galosphere
+    public static final RegistryObject<Block> ALLURITE_REED = registerReedBlock("allurite_reed", SoundType.AMETHYST, 1.5F, 4);
+    public static final RegistryObject<Block> LUMIERE_REED = registerReedBlock("lumiere_reed", SoundType.AMETHYST, 1.5F, 4);
+    public static final RegistryObject<Block> SILVER_REED = registerReedBlock("silver_reed", SoundType.STONE, 3.0F, 3.0F, 4);
+    public static final RegistryObject<Block> DEEPSLATE_SILVER_REED = registerReedBlock("deepslate_silver_reed", SoundType.DEEPSLATE, 4.5F, 3.0F, 3);
 
     private static <T extends Block> RegistryObject<T> registerReedBlock(String name, SoundType soundType, float strength1, float strength2, int maxHeight){
         return (RegistryObject<T>) BLOCKS.register(name, ()-> new OreReedBlock(BlockBehaviour.Properties.copy(Blocks.SUGAR_CANE).sound(soundType).strength(strength1, strength2), maxHeight));

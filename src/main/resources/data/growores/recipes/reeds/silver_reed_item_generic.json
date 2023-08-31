@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "minecraft:sugar_cane"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "X": {
+      "tag": "forge:raw_materials/silver"
+    }
+  },
+  "pattern": [
+    "RSR",
+    "RXR",
+    "RSR"
+  ],
+  "result": {
+    "item": "growores:silver_reed_item"
+  },
+  "show_notification": true
+}

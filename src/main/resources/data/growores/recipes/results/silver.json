@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "growores:silver_reed_item"
+    },
+    {
+      "item": "growores:silver_reed_item"
+    },
+    {
+      "item": "growores:silver_reed_item"
+    },
+    {
+      "item": "growores:silver_reed_item"
+    },
+    {
+      "item": "growores:silver_reed_item"
+    },
+    {
+      "item": "growores:silver_reed_item"
+    },
+    {
+      "item": "growores:silver_reed_item"
+    },
+    {
+      "item": "growores:silver_reed_item"
+    }
+  ],
+  "result": {
+    "item": "galosphere:raw_silver"
+  }
+}

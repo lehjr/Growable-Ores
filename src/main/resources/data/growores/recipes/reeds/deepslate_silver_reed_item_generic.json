@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "minecraft:sugar_cane"
+    },
+    "S": {
+      "item": "minecraft:deepslate"
+    },
+    "X": {
+      "tag": "forge:raw_materials/silver"
+    }
+  },
+  "pattern": [
+    "RSR",
+    "RXR",
+    "RSR"
+  ],
+  "result": {
+    "item": "growores:deepslate_silver_reed_item"
+  },
+  "show_notification": true
+}
