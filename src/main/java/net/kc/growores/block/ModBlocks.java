@@ -28,7 +28,7 @@ public class ModBlocks {
 
 
     public static final RegistryObject<Block> GROWING_BLOCK = registerBlock("growing_block",
-            ()-> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.GRAVEL)), ModCreativeModeTab.GROWORES_TAB);
+            ()-> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.GRAVEL)));
 
     //Reeds
     public static final RegistryObject<Block> COAL_REED = BLOCKS.register("coal_reed",
@@ -155,14 +155,14 @@ public class ModBlocks {
         return (RegistryObject<T>) BLOCKS.register(name, ()-> new OreReedBlock(BlockBehaviour.Properties.copy(Blocks.SUGAR_CANE), maxHeight));
     }
 
-    private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
+    private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
-        registerBlockItem(name, toReturn, tab);
+        registerBlockItem(name, toReturn);
         return toReturn;
     }
 
-    private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block, CreativeModeTab tab){
-        return ModItems.ITEMS.register(name, ()-> new BlockItem(block.get(), new Item.Properties().tab(tab)));
+    private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block){
+        return ModItems.ITEMS.register(name, ()-> new BlockItem(block.get(), new Item.Properties()));
     }
 
     public static void register(IEventBus eventBus){
