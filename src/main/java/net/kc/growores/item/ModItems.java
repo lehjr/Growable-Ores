@@ -4,6 +4,8 @@ import net.kc.growores.GrowOres;
 import net.kc.growores.block.ModBlocks;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemNameBlockItem;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -126,10 +128,27 @@ public class ModItems {
     public static final RegistryObject<Item> DEEPSLATE_SILVER_REED_ITEM = ITEMS.register("deepslate_silver_reed_item",
             () -> new ItemNameBlockItem(ModBlocks.DEEPSLATE_SILVER_REED.get(), new Item.Properties().tab(ModCreativeModeTab.GROWORES_TAB)));
 
+    // Mekanism
+    public static final RegistryObject<Item> OSMIUM_REED_ITEM = ITEMS.register("osmium_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.OSMIUM_REED.get(), new Item.Properties().tab(ModCreativeModeTab.GROWORES_TAB)));
+    public static final RegistryObject<Item> DEEPSLATE_OSMIUM_REED_ITEM = ITEMS.register("deepslate_osmium_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.DEEPSLATE_OSMIUM_REED.get(), new Item.Properties().tab(ModCreativeModeTab.GROWORES_TAB)));
+    public static final RegistryObject<Item> URANIUM_REED_ITEM = ITEMS.register("uranium_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.URANIUM_REED.get(), new Item.Properties().tab(ModCreativeModeTab.GROWORES_TAB)));
+    public static final RegistryObject<Item> DEEPSLATE_URANIUM_REED_ITEM = ITEMS.register("deepslate_uranium_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.DEEPSLATE_URANIUM_REED.get(), new Item.Properties().tab(ModCreativeModeTab.GROWORES_TAB)));
+    public static final RegistryObject<Item> TIN_REED_ITEM = ITEMS.register("tin_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.TIN_REED.get(), new Item.Properties().tab(ModCreativeModeTab.GROWORES_TAB)));
+    public static final RegistryObject<Item> DEEPSLATE_TIN_REED_ITEM = ITEMS.register("deepslate_tin_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.DEEPSLATE_TIN_REED.get(), new Item.Properties().tab(ModCreativeModeTab.GROWORES_TAB)));
+    public static final RegistryObject<Item> SALT_REED = ITEMS.register("salt_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.SALT_REED.get(), new Item.Properties().tab(ModCreativeModeTab.GROWORES_TAB)));
+    public static final RegistryObject<Item> LEAD_REED_ITEM = ITEMS.register("lead_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.LEAD_REED.get(), new Item.Properties().tab(ModCreativeModeTab.GROWORES_TAB)));
+    public static final RegistryObject<Item> DEEPSLATE_LEAD_REED_ITEM = ITEMS.register("deepslate_lead_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.DEEPSLATE_LEAD_REED.get(), new Item.Properties().tab(ModCreativeModeTab.GROWORES_TAB)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
-
-
 }

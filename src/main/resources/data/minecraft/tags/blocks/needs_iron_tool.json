@@ -14,6 +14,11 @@
     "growores:deepslate_diamond_reed",
     "growores:deepslate_emerald_reed",
     "growores:nether_quartz_reed",
-    "growores:nether_gold_reed"
+    "growores:nether_gold_reed",
+    "growores:deepslate_osmium_reed",
+    "growores:deepslate_tin_reed",
+    "growores:lead_reed",
+    "growores:deepslate_uranium_reed",
+    "growores:deepslate_lead_reed"
   ]
 }

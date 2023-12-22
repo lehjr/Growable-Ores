@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "growores:uranium_reed_item"
+    },
+    {
+      "item": "growores:uranium_reed_item"
+    },
+    {
+      "item": "growores:uranium_reed_item"
+    },
+    {
+      "item": "growores:uranium_reed_item"
+    },
+    {
+      "item": "growores:uranium_reed_item"
+    },
+    {
+      "item": "growores:uranium_reed_item"
+    },
+    {
+      "item": "growores:uranium_reed_item"
+    },
+    {
+      "item": "growores:uranium_reed_item"
+    }
+  ],
+  "result": {
+    "item": "mekanism:raw_uranium"
+  }
+}

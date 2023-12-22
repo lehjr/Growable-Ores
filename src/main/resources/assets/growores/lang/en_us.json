@@ -56,6 +56,16 @@
   "item.growores.silver_reed_item": "Silver Reeds",
   "item.growores.deepslate_silver_reed_item": "Deepslate Silver Reeds",
 
+  "item.growores.osmium_reed_item": "Osmium Reeds",
+  "item.growores.deepslate_osmium_reed_item": "Deepslate Osmium Reeds",
+  "item.growores.tin_reed_item": "Tin Reeds",
+  "item.growores.deepslate_tin_reed_item": "Deepslate Tin Reeds",
+  "item.growores.uranium_reed_item": "Uranium Reeds",
+  "item.growores.deepslate_uranium_reed_item": "Deepslate Uranium Reeds",
+  "item.growores.salt_reed_item": "Salt Reeds",
+  "item.growores.lead_reed_item": "Lead Reeds",
+  "item.growores.deepslate_lead_reed_item": "Deepslate Lead Reeds",
+
   "block.growores.growing_block": "Growing Block",
 
   "block.growores.coal_reed": "Coal Reeds",

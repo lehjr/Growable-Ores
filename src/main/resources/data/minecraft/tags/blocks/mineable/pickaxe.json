@@ -47,6 +47,15 @@
     "growores:allurite_reed",
     "growores:lumiere_reed",
     "growores:silver_reed",
-    "growores:deepslate_silver_reed"
+    "growores:deepslate_silver_reed",
+    "growores:osmium_reed",
+    "growores:deepslate_osmium_reed",
+    "growores:tin_reed",
+    "growores:salt_reed",
+    "growores:deepslate_tin_reed",
+    "growores:uranium_reed",
+    "growores:deepslate_uranium_reed",
+    "growores:lead_reed",
+    "growores:deepslate_lead_reed"
   ]
 }

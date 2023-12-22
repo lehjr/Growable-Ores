@@ -25,8 +25,6 @@ public class ModBlocks {
 
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, GrowOres.MOD_ID);
-
-
     public static final RegistryObject<Block> GROWING_BLOCK = registerBlock("growing_block",
             ()-> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.GRAVEL)), ModCreativeModeTab.GROWORES_TAB);
 
@@ -136,6 +134,19 @@ public class ModBlocks {
     public static final RegistryObject<Block> SILVER_REED = registerReedBlock("silver_reed", SoundType.STONE, 3.0F, 3.0F, 4);
     public static final RegistryObject<Block> DEEPSLATE_SILVER_REED = registerReedBlock("deepslate_silver_reed", SoundType.DEEPSLATE, 4.5F, 3.0F, 3);
 
+    // Mekanism
+    public static final RegistryObject<Block> OSMIUM_REED = registerReedBlock("osmium_reed", SoundType.STONE, 3.0F, 3.0F, 4);
+    public static final RegistryObject<Block> DEEPSLATE_OSMIUM_REED = registerReedBlock("deepslate_osmium_reed", SoundType.DEEPSLATE, 4.5F, 3.0F, 3);
+    public static final RegistryObject<Block> URANIUM_REED = registerReedBlock("uranium_reed", SoundType.STONE, 3.0F, 3.0F, 4);
+    public static final RegistryObject<Block> DEEPSLATE_URANIUM_REED = registerReedBlock("deepslate_uranium_reed", SoundType.DEEPSLATE, 4.5F, 3.0F, 3);
+    public static final RegistryObject<Block> SALT_REED = registerReedBlock("salt_reed", SoundType.DEEPSLATE_TILES, 3.0F, 3.0F, 4);
+    public static final RegistryObject<Block> TIN_REED = registerReedBlock("tin_reed", SoundType.STONE, 3.0F, 3.0F, 4);
+    public static final RegistryObject<Block> DEEPSLATE_TIN_REED = registerReedBlock("deepslate_tin_reed", SoundType.DEEPSLATE, 4.5F, 3.0F, 4);
+    public static final RegistryObject<Block> LEAD_REED = registerReedBlock("lead_reed", SoundType.STONE, 3.0F, 3.0F, 4);
+    public static final RegistryObject<Block> DEEPSLATE_LEAD_REED = registerReedBlock("deepslate_lead_reed", SoundType.DEEPSLATE, 4.5F, 3.0F, 4);
+
+
+
     private static <T extends Block> RegistryObject<T> registerReedBlock(String name, SoundType soundType, float strength1, float strength2, int maxHeight){
         return (RegistryObject<T>) BLOCKS.register(name, ()-> new OreReedBlock(BlockBehaviour.Properties.copy(Blocks.SUGAR_CANE).sound(soundType).strength(strength1, strength2), maxHeight));
     }
@@ -169,6 +180,4 @@ public class ModBlocks {
         BLOCKS.register(eventBus);
     }
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, GrowOres.MOD_ID);
-
-
 }

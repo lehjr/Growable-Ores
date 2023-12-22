@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "growores:item/deepslate_osmium_reed_item"
+  }
+}
