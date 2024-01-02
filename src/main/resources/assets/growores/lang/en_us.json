@@ -65,6 +65,8 @@
   "item.growores.salt_reed_item": "Salt Reeds",
   "item.growores.lead_reed_item": "Lead Reeds",
   "item.growores.deepslate_lead_reed_item": "Deepslate Lead Reeds",
+  "item.growores.fluorite_reed_item": "Fluorite Reeds",
+  "item.growores.deepslate_fluorite_reed_item": "Deepslate Fluorite Reeds",
 
   "block.growores.growing_block": "Growing Block",
 

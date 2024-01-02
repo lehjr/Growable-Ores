@@ -144,7 +144,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSLATE_TIN_REED = registerReedBlock("deepslate_tin_reed", SoundType.DEEPSLATE, 4.5F, 3.0F, 4);
     public static final RegistryObject<Block> LEAD_REED = registerReedBlock("lead_reed", SoundType.STONE, 3.0F, 3.0F, 4);
     public static final RegistryObject<Block> DEEPSLATE_LEAD_REED = registerReedBlock("deepslate_lead_reed", SoundType.DEEPSLATE, 4.5F, 3.0F, 4);
-
+    public static final RegistryObject<Block> FLUORITE_REED = registerReedBlock("fluorite_reed", SoundType.STONE, 3.0F, 3.0F, 4);
+    public static final RegistryObject<Block> DEEPSLATE_FLUORITE_REED = registerReedBlock("deepslate_fluorite_reed", SoundType.DEEPSLATE, 4.5F, 3.0F, 4);
 
 
     private static <T extends Block> RegistryObject<T> registerReedBlock(String name, SoundType soundType, float strength1, float strength2, int maxHeight){

@@ -147,6 +147,11 @@ public class ModItems {
             () -> new ItemNameBlockItem(ModBlocks.LEAD_REED.get(), new Item.Properties().tab(ModCreativeModeTab.GROWORES_TAB)));
     public static final RegistryObject<Item> DEEPSLATE_LEAD_REED_ITEM = ITEMS.register("deepslate_lead_reed_item",
             () -> new ItemNameBlockItem(ModBlocks.DEEPSLATE_LEAD_REED.get(), new Item.Properties().tab(ModCreativeModeTab.GROWORES_TAB)));
+    public static final RegistryObject<Item> FLUORITE_REED_ITEM = ITEMS.register("fluorite_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.FLUORITE_REED.get(), new Item.Properties().tab(ModCreativeModeTab.GROWORES_TAB)));
+    public static final RegistryObject<Item> DEEPSLATE_FLUORITE_REED_ITEM = ITEMS.register("deepslate_fluorite_reed_item",
+            () -> new ItemNameBlockItem(ModBlocks.DEEPSLATE_FLUORITE_REED.get(), new Item.Properties().tab(ModCreativeModeTab.GROWORES_TAB)));
+
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

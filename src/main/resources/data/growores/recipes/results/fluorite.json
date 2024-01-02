@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "growores:fluorite_reed_item"
+    },
+    {
+      "item": "growores:fluorite_reed_item"
+    },
+    {
+      "item": "growores:fluorite_reed_item"
+    },
+    {
+      "item": "growores:fluorite_reed_item"
+    },
+    {
+      "item": "growores:fluorite_reed_item"
+    },
+    {
+      "item": "growores:fluorite_reed_item"
+    },
+    {
+      "item": "growores:fluorite_reed_item"
+    },
+    {
+      "item": "growores:fluorite_reed_item"
+    }
+  ],
+  "result": {
+    "item": "mekanism:fluorite_gem"
+  }
+}
